@@ -13,6 +13,6 @@ deploy:
   skip_cleanup: true
   local_dir: website/public
   github_token: $github_token
-  fqdn: cafecode.bigelow.org
+  fqdn: zoom.bigelow.org
   on:
     branch: master

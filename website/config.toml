@@ -1,22 +1,10 @@
-baseURL = "https://cafecode.bigelow.org/"
+baseURL = "https://zoom.bigelow.org"
+languageCode = "en-us"
+title = "Zoom Connect"
+theme = "blue"
 disqusShortname = "kevinguay"
 googleAnalytics = "UA-109988049-1"
-languageCode = "en-us"
-theme = "minimal"
-title = "Cafe Code"
-[[menu.main]]
-name = "blog"
-url = "/posts/"
-weight = 3
-[[menu.main]]
-name = "menu"
-url = "/menu/"
-weight = 2
-[[menu.main]]
-identifier = "about"
-name = "about"
-url = "/about/"
-weight = 1
+
 [params]
-author = "Bigelow Laboratory"
-subtitle = "Cafe Code"
+  subtitle = "Bigelow Zoom Connect"
+  author = "Kevin Guay"

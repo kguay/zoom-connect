@@ -1,14 +1,14 @@
 body {
   font-family: Georgia, Times, serif !important;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 300;
   margin-bottom: 150px;
   letter-spacing: 1px;
-  color: #6E2F00; 
-  background-color: #ECE4D8;
+  color: #333; 
 }
 .container, .container-fluid {
-  padding-left: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .main {
@@ -17,32 +17,33 @@ body {
 
 /** Headers **/
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Georgia" !important;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   margin-top: 40px;
   margin-bottom: 20px; 
 }
 
 h1 {
-  font-size: 1.5em;
-  font-weight: 400;
-  margin-top: 0px; 
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-top: 0px;
 }
 
 h2 {
-  font-size: 1.3em;
-  font-weight: 400; 
+  font-size: 1.4em;
+  font-weight: 600; 
+  margin-top:30px;
 }
 
 h3 {
   font-size: 1.2em;
-  font-weight: 400;
-  margin-top: 30px;
+  font-weight: 600;
+  margin-top: 20px;
   margin-bottom: 15px; 
 }
 
 h4 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 500; 
 }
 
@@ -53,23 +54,47 @@ h5 {
 
 /** Paragraph **/
 p {
-  color: #333;
+  color: #444;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.6; 
+  
 }
+/*@media (max-width: 710px) {
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}*/
+
+
 
 /** Links **/
 a:link,
 a:visited,
-a:hover,
 a:active {
-  color: #6E2F00;
+  color: #333;
   text-decoration: none; 
 }
 
 /** mouse over link **/
 a:hover {
-  color: #003E6E !important; 
+  color: #333 !important; 
+  text-decoration: underline; 
+  
+}
+
+/** Links in Paragraphs **/
+p a:link,
+p a:visited,
+p a:active {
+  color: #57B384 !important;
+  text-decoration: underline; 
+}
+
+/** mouse over link **/
+p a:hover {
+  color: #57B384 !important;
+  text-decoration: none; 
 }
 
 /** Code **/
@@ -91,6 +116,11 @@ code {
   background-color: #eff1f5; 
 }
 
+.sans {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
 .title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -100,26 +130,28 @@ code {
   color: #444;
   max-width: 700px;
   margin-bottom: 10px;
-    margin-top: 50px;
+  margin-top: 50px;
+}
+.title a:link,
+.title a:visited,
+.title a:hover,
+.title a:active {
+  text-decoration: none !important;
 }
 .sidebar {
   font-size:1.3em !important;
   margin-bottom: 10px !important;
 }
-@media (min-width: 768px) {
-  .title {
-    margin-bottom: 30px; 
-  } 
-}
-@media (max-width: 768px) {
-  .title {
-    margin-bottom: 0px;
-    margin-top: 35px; 
-  } 
+
+.box {
+  border: 1px solid #333;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
 }
 
 .menu {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   margin-top: 8px;
   font-size: 1.2em;
@@ -128,36 +160,34 @@ code {
 .menu a:visited,
 .menu a:hover,
 .menu a:active {
-  color: #6E2F00;
+  color: #444;
   text-decoration: none; 
+  margin-left: 20px;
+  
 }
-@media (min-width: 768px) {
-  .menu a:link,
-  .menu a:visited,
-  .menu a:hover,
-  .menu a:active {
-    margin-left: 20px; 
-  } 
-}
+
 .menu a:hover {
-  color: #003E6E !important;
-  text-decoration: underline; 
-}
-.menu .active a:link,
-.menu .active a:visited,
-.menu .active a:active {
+  color: #444 !important;
   text-decoration: underline; 
 }
 
 .bubble.green {
+  font-size: 0.8em;
   background-color: white;
   border-radius: 5px;
-  border: #537FBC solid 1px;
-  color: #aaa;
-  padding: 2px 6px;
+  border: #333 solid 1px;
+  color: #333;
+  padding: 2px 4px;
   border-radius: 5px;
-  margin-right: 10px;
+  margin-right: 2px;
 }
+/*.bubble.green:hover {
+  background-color: #333;
+  color: #fff !important;
+}
+.bubble.green a:hover {
+  color: white !important;
+}*/
 
 .bubble.yellow {
   background-color: #F9D066;
@@ -172,14 +202,15 @@ hr.top {
   color: #999;
   color: #f2f2f2;
   height: .5px;
-  margin-left: 0px !important;
+  margin: 0px;
+  margin-bottom: 10px;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 730px) {
   hr.top {
     margin-top: -20px;
-    margin-left: -10px; 
-  } 
-}
+    margin-left: -10px;
+  }
+}*/
 
 a.navbar-header:hover {
   color: #333; 
@@ -188,15 +219,15 @@ a.navbar-header:hover {
 .navbar-default {
   background-color: rgba(0, 0, 0, 0) !important;
   border: none;
-  margin-top: 0px; 
+  margin-top: 10px; 
 }
 
-@media (max-width: 580px) {
+/*@media (max-width: 580px) {
   .navbar-default {
     margin-left: 15px;
-    margin-right: 25px; 
-  } 
-}
+    margin-right: 25px;
+  }
+}*/
 nav ul {
   font-size: 1.3em;
   text-align: right; 
@@ -300,13 +331,11 @@ ul.left {
 
 h1.title {
   font-size: 3.7em;
-  color: #6a9d00;
+  color: #57B384;
   text-align: center;
   margin-top: 50px; 
 }
-h1.news-title {
-  font-size: 1.5em;
-}
+
 
 h2.subtitle {
   font-size: 1.3em;
@@ -342,6 +371,27 @@ h4 {
 hr {
   height: 0.5px;
   background-color: #ccc; 
+}
+
+.news-title {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+.news-title-container {
+  margin-bottom: 10px;
+}
+
+.news-title-container > h1 > a:link,
+.news-title-container > h1 > a:active,
+.news-title-container > h1 > a:visited,
+.news-title-container > h1 > a:hover,
+.news-title > a:link,
+.news-title > a:active,
+.news-title > a:visited,
+.news-title > a:hover {
+  color: #57B384 !important;
 }
 
 .top-20 {
@@ -403,12 +453,14 @@ img.vcenter {
 }
 
 .date {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   color: #7CA35B;
   color: #999;
-  font-size: 1.1em;
+  font-size: 1em;
   margin-top: -10px;
   margin-bottom: 10px;
-  font-style: italic; 
+/*  font-style: italic;*/
 }
 
 ul.hor-list {
@@ -445,12 +497,15 @@ ul.hor-list li:last-child:after {
 
 /** Footer **/
 footer {
-/*  min-height: 200px;*/
+  background-color: white;
+  color: #666;
+  min-height: 200px;
   bottom: 0;
   width: 100%;
   float: left;
   margin-top: 50px;
   -webkit-font-smoothing: antialiased;
+  margin-bottom: 70px !important;
 /** mouse over link **/ }
 footer a:link,
 footer a:visited,

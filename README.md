@@ -1,3 +1,6 @@
+![ZoomConnect](https://raw.githubusercontent.com/kguay/zoom-connect/master/zoomconnect.svg)
+
+
 # ZoomConnect
 
 [![Build Status](https://travis-ci.org/cafe-code/cafecode.io.svg?branch=master)](https://travis-ci.org/cafe-code/cafecode.io)

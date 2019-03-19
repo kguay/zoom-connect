@@ -1,4 +1,4 @@
-![ZoomConnect](https://raw.githubusercontent.com/kguay/zoom-connect/master/zoomconnect.svg)
+![Alt text](https://raw.github.com/kguay/zoom-connect/master/zoomconnect.svg?sanitize=true)
 
 
 # ZoomConnect

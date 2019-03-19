@@ -243,6 +243,9 @@ a > .fas {
   -webkit-rtl-ordering: logical;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-border-image: none;
+  @media (max-width: 730px) {
+    width: 350px;
+  }
 }
 .hd-query::placeholder { 
   color: white !important;
@@ -261,6 +264,9 @@ a > .fas {
   width: 400px;
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  @media (max-width: 730px) {
+    width: 350px;
+  }
 }
 
 .fa-search {

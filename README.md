@@ -1,3 +1,6 @@
+<img src="https://raw.github.com/kguay/zoom-connect/master/zoomconnect.svg?sanitize=true" height="90px">
+
+
 # ZoomConnect
 
 [![Build Status](https://travis-ci.org/cafe-code/cafecode.io.svg?branch=master)](https://travis-ci.org/cafe-code/cafecode.io)

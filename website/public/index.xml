@@ -21,7 +21,7 @@
     <div id="connect-info" class="row boxes">
       <div class="col-xs-6 col-sm-3">
         <div id="call-link"></div>
-        <!-- (408-638-0968) -->
+        
       </div>
       <div class="col-xs-6 col-sm-3">
         <div id="join-link"></div>
@@ -51,7 +51,7 @@
       </div>
     </div>
     
-    <!-- FAQ  -->
+    
     <div id="faq">
       <h1>FAQ</h1>
       <h2>Can I call from outside of the US?</h2>
@@ -213,7 +213,7 @@ Meeting ID: 207 315 2005</textarea>
     }
   });
   
-  var meetingName = {2073152566: "Boadroom",2073152567: "Classroom",2073152568: "Alfond Room",2073152000: "Webinar",2073152561: "Pro One",2073152562: "Pro Two",2073152563: "Pro Three",2073152564: "Pro Four",2073152005: "Pro Five"};
+  var meetingName = {2073152566: "Boadroom",2073152567: "Classroom",2073152568: "Alfond Room",2073152000: "Webinar",2073152561: "Pro One",2073152562: "Pro Two",2073152563: "Pro Three",2073152564: "Pro Four"};
   
   $('#meeting-room').change(function() {
     var meetingID = "";

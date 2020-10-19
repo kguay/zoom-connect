@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zoom Connect</title>
+    <link>https://zoom.bigelow.org/</link>
+    <description>Recent content on Zoom Connect</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+        <atom:link href="https://zoom.bigelow.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://zoom.bigelow.org/menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zoom.bigelow.org/menu/</guid>
+      <description>Menu Code Resources  Python for Beginners R Studio cheat sheets Git primer Cheat sheet for Unix / Mac Cheat sheet for Windows command prompt / DOS  Videos and TED talks  The beauty of data visualization (David McCandless) The nightmare videos of children&amp;rsquo;s YouTube — and what&amp;rsquo;s wrong with the internet today (James Bridle) We&amp;rsquo;re building a dystopia just to make people click on ads (Zeynep Tufekci) Visualizing ourselves &amp;hellip; with crowd-sourced data (Aaron Koblin) What do we do with all this big data?</description>
+    </item>
+    
+  </channel>
+</rss>
